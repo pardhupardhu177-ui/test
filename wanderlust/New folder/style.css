@@ -1,0 +1,11 @@
+.about-page {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.about-page ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}

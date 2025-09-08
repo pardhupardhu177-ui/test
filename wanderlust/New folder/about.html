@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <tittle>DOCUMENT</tittle>
+    <style>
+      
+        <div class="about-container">
+  <h2>About Wanderlust</h2>
+
+  <p>Welcome to <strong>Wanderlust</strong> – your gateway to discovering amazing travel destinations around the world!</p>
+
+  <p>Whether you're dreaming of snowy mountain peaks, tropical beaches, or vibrant city escapes, Wanderlust helps you explore and share beautiful places with ease. This platform allows users to browse destinations, add new places they've visited, and inspire others to travel more.</p>
+
+  <h3>🔧 Technologies Used:</h3>
+  <ul>
+    <li>Node.js + Express.js</li>
+    <li>MongoDB with Mongoose</li>
+    <li>EJS templating</li>
+    <li>HTML, CSS, and Bootstrap for UI</li>
+  </ul>
+
+  <h3>👨‍💻 About the Developer</h3>
+  <p>This project was developed as a part of a full-stack web development portfolio. It's a learning-focused clone of travel platforms like Airbnb and Booking.com.</p>
+
+  <p>If you'd like to contribute or learn more, visit the GitHub repository or contact the developer.</p>
+
+  <h4>🌍 Wanderlust – Explore. Share. Inspire.</h4>
+</div>
+✅ 3. views/layout.ejs — Add Link to Navigation
+Update your header or navigation to include an "About" link:
+
+html
+Copy code
+<header>
+  <h1><a href="/">Wanderlust</a></h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/new">Add Destination</a>
+    <a href="/about">About</a>
+  </nav>
+</header>
+⚠️ Ensure your layout uses <%- body %> for the page content to render. If you're not using a layout engine, just include the full HTML in about.ejs.
+
+✅ 4. public/style.css — Optional Styling
+Add this to your style.css file to improve the appearance of the About page:
+
+css
+Copy code
+.about-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h2,
+.about-container h3,
+.about-container h4 {
+  color: #333;
+}
+
+.about-container ul {
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.about-container p {
+  line-height: 1.6;
+}
+✅ Final Test
+Start your server:
+
+bash
+Copy code
+node app.js
+Then go to:
+
+🔗 http://localhost:3000/about
+
+You should see a beautiful and informative About page.
+
+✅ Optional: Want a "Contact Us" section too?
+Let me know and I can add a section for email/social/contact form right on the About page or a separate /contact page.
+
+Let me know if you'd like to turn this into a multi-page website or deploy it online!
+
+
+
+
+
+      
+    </style>
+  </head>
+</html>
